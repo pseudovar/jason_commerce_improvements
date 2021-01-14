@@ -1,0 +1,117 @@
+body {
+    &.staging-update-preview {
+        min-width: auto;
+    }
+    &.viewport-mobile {
+        .staging-preview-content-dynamic {
+            max-width: 480px;
+        }
+        #viewport-mobile {
+            border-color: #ffffff;
+            path {
+                fill: #ffffff;
+            }
+        }
+    }
+    &.viewport-tablet {
+        .staging-preview-content-dynamic {
+            max-width: 760px;
+        }
+        #viewport-tablet {
+            border-color: #ffffff;
+            path {
+                fill: #ffffff;
+            }
+        }
+    }
+    &.viewport-desktop {
+        .staging-preview-content-dynamic {
+            max-width: 100%;
+        }
+        #viewport-desktop {
+            border-color: #ffffff;
+            path {
+                fill: #ffffff;
+            }
+        }
+    }
+}
+
+.staging-preview-item-content {
+    .viewport-button {
+        border: 2px solid #c3bbb1;
+        border-radius: 5px;
+        width: 10rem;
+        height: 10rem;
+        display: inline-block;
+        text-align: center;
+        padding: 2rem;
+        margin-right: 1rem;
+        svg {
+            height: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .staging-update-preview {
+        .staging-preview-item-title {
+            min-height: auto;
+            padding: 1.5rem 1rem;
+            .title {
+                margin: 0;
+            }
+            .subtitle {
+                display: none;
+            }
+        }
+        .staging-preview-item-calendar {
+            &:before {
+                display: none;
+            }
+        }
+        .staging-preview-header {
+            .logo {
+                margin: 1rem;
+                width: 2.2rem;
+            }
+    
+        }
+        .staging-preview-item-segment {
+            .admin__control-select {
+                min-width: auto;
+            }
+        }
+        .field-staging_date {
+            .admin__field-control {
+                input {
+                    max-width: 100%;
+                }
+            }
+        }
+        .admin__data-grid-actions-wrap {
+            float: none;
+            margin: 0;
+            text-align: center;
+        }
+        .admin__data-grid-actions-wrap {
+            .admin__action-dropdown {
+                padding: 1rem;
+            }
+        }
+        .admin__data-grid-header-row:last-child {
+            .col-xs-3 {
+                display: none;
+            }
+            .col-xs-9 {
+                width: 100%;
+                .admin__data-grid-pager-wrap {
+                    text-align: center;
+                }
+                .admin__data-grid-pager {
+                    margin: 2rem 0 0;
+                }
+            }
+        }
+    }
+}
