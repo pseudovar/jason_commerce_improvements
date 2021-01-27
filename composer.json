@@ -1,6 +1,6 @@
 {
     "name": "jasfordadobe/commerceimprovements",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Page Builder content type for Animate.",
     "require": {
         "magento/framework": "*",
