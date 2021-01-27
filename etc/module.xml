@@ -3,6 +3,7 @@
     <module name="Jason_CommerceImprovements">
         <sequence>
             <module name="Magento_Staging"/>
+            <module name="Magento_Theme"/>
         </sequence>
     </module>
 </config>

@@ -1,0 +1,25 @@
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__s) {
+    [data-content-type="products"] {
+        &[data-appearance="grid"] {
+            .product-items {
+                width: 100%;
+                overflow-x: scroll;
+                white-space: nowrap;
+                .product-item {
+                    width: 60vw !important;
+                    margin: 0 1rem 0 0;
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+//Comment to avoid "empty LESS file" error from Magento's compiler
+li.product-item {
+    transition: transform 200ms ease-in-out;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
