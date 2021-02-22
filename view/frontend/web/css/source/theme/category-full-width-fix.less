@@ -1,11 +1,17 @@
 // When you make the category pages full width for use with Page Builder
 // Also see nav-spacing-fix.less as that removed the spacing below navigation
-.catalog-category-view {
-    &.page-layout-cms-full-width {
+.page-layout-cms-full-width {
+    &.catalog-category-view {
         // Hide some content
         .breadcrumbs,
         .page-title-wrapper {
             display: none;
+        }
+
+        .columns {
+            > .sidebar {
+                display: none;
+            }
         }
     }
 }

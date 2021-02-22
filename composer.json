@@ -1,7 +1,7 @@
 {
     "name": "jasfordadobe/commerceimprovements",
-    "version": "0.0.4",
-    "description": "Page Builder content type for Animate.",
+    "version": "0.0.5",
+    "description": "Magento Commerce QoL Demo Improvements",
     "require": {
         "magento/framework": "*",
         "magento/module-staging": "*",
