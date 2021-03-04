@@ -7,6 +7,9 @@ A bunch of simple changes to Magento OS and Commerce that help me out.
     * Responsive using window resize or Chrome device preview
     * Adjusted Logo, Calendar & Scope controls
     * Adjusted Calendar and Scope dropdowns
+
+![Content Staging w/ Viewport](image_staging_viewport.gif "Content Staging w/ Viewport")
+
 * Frontend CSS changes
     * Category Page Full Width
         * Hide Header
@@ -15,7 +18,6 @@ A bunch of simple changes to Magento OS and Commerce that help me out.
         * Minimize navigation spacing
     * PB Product Grid -> Mobile Slider
         * For mobile, make product grids in PB a horizontal slider instead of stacked
-
 
 ## Boring stuff
 
