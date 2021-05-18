@@ -4,6 +4,7 @@
         <sequence>
             <module name="Magento_Staging"/>
             <module name="Magento_Theme"/>
+            <module name="Magento_Indexer"/>
         </sequence>
     </module>
 </config>

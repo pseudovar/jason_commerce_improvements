@@ -18,6 +18,9 @@ A bunch of simple changes to Magento OS and Commerce that help me out.
         * Minimize navigation spacing
     * PB Product Grid -> Mobile Slider
         * For mobile, make product grids in PB a horizontal slider instead of stacked
+* Performance Improvements
+    * Reduced reindexing batch sizes to improve index performance on smaller platforms
+* Added whitelist for Adobe Target
 
 ## Boring stuff
 
